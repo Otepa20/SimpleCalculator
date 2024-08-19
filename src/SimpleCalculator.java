@@ -26,9 +26,7 @@ public class SimpleCalculator {  //Le nom de ma classe
             case '*': answer = num1 * num2; break;
             case '/': answer = num1 / num2; break;
             case '%': answer = num1 % num2; break;
-
             default : System.out.println("This operator is not valid"); break;
-
         }
         scanObject.close();
         System.out.println(num1+" " +operator+""+num2+" ="+answer);

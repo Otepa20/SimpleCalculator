@@ -15,7 +15,6 @@ public class Calculator {  //Le nom de ma classe
         num2 = scanObject.nextDouble();
         System.out.println("Enter the operator ?");
         operator = scanObject.next().charAt(0);
-
         switch (operator){  //Comme nous avons deja vu le swith je penses que ca devais etre une bonne pratique
             // Etant que le switch comme elle est utilise sur le choix multiple base sur la valeur d'une variable
             case '+': answer = num1 + num2;
