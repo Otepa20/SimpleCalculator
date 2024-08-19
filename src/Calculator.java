@@ -23,7 +23,6 @@ public class Calculator {  //Le nom de ma classe
             case '*': answer = num1 * num2;
             case '/': answer = num1 / num2;
             case '%': answer = num1 % num2;
-
         }
         System.out.println(num1+" " +operator+""+num2+" ="+answer);
     }
