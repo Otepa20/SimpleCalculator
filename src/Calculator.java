@@ -16,12 +16,28 @@ public class Calculator {  //Le nom de ma classe
         switch (operator){  //Comme nous avons deja vu le swith je penses que ca devais etre une bonne pratique
             // Etant que le switch comme elle est utilise sur le choix multiple base sur la valeur d'une variable
             case '+': answer = num1 + num2;
+                System.out.println(num1+" " +operator+""+num2+" ="+answer);
+                break;
             case '-': answer = num1 - num2;
+                System.out.println(num1+" " +operator+""+num2+" ="+answer);
+                break;
             case '*': answer = num1 * num2;
+                System.out.println(num1+" " +operator+""+num2+" ="+answer);
+                break;
             case '/': answer = num1 / num2;
+                if (num2==0) {
+                    System.out.println("The division by zero is not possible");
+                    break;
+                } else
+                    System.out.println(num1+" " +operator+""+num2+" ="+answer);
+                break;
             case '%': answer = num1 % num2;
+                System.out.println(num1+" " +operator+""+num2+" ="+answer);
+                break;
+            default : System.out.println("This operator is not valid"); break;  // L'exeption en cas de faire entre une operation qui n'existe pas
+
         }
-        System.out.println(num1+" " +operator+""+num2+" ="+answer);
+
     }
 }
 
