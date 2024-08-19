@@ -34,8 +34,6 @@ public class SimpleCalculator {  //Le nom de ma classe
         scanObject.close();
         System.out.println(num1+" " +operator+""+num2+" ="+answer);
     }
-
-
 }
 
 

@@ -27,8 +27,6 @@ public class Calculator {  //Le nom de ma classe
         }
         System.out.println(num1+" " +operator+""+num2+" ="+answer);
     }
-
-
 }
 
 
